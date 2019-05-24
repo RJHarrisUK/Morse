@@ -52,6 +52,8 @@ public class Morse {
 		morse.put("/", ' ');
 
 		String string = ".... . .-.. .-.. --- / -.. .- .. .-.. -.-- / .--. .-. --- --. .-. .- -- -- . .-. / --. --- --- -.. / .-.. ..- -.-. -.- / --- -. / - .... . / -.-. .... .- .-.. .-.. . -. --. . ... / - --- -.. .- -.--";
+		System.out.println("The user input is: \n" + string);
+		System.out.println("Which returns: ");
 		String[] parts = string.split(" ");
 		for (int i = 0; i < parts.length; i++) {
 			String a = parts[i];
@@ -102,7 +104,8 @@ public class Morse {
 		morse2.put(' ', "/");
 
 		String string2 = "hello daily programmer good luck on the challenges today";
-
+		System.out.println("\n\nThe user input is: \n" + string2);
+		System.out.println("Which returns: ");
 		char[] newparts = string2.toCharArray();
 		for (int i = 0; i < newparts.length; i++) {
 			char b = newparts[i];
