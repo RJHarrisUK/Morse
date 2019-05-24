@@ -46,7 +46,7 @@ public class Morse {
 
 		String string = ".... . .-.. .-.. --- / -.. .- .. .-.. -.-- / .--. .-. --- --. .-. .- -- -- . .-. / --. --- --- -.. / .-.. ..- -.-. -.- / --- -. / - .... . / -.-. .... .- .-.. .-.. . -. --. . ... / - --- -.. .- -.--";
 		String[] parts = string.split(" ");
-		for (int i = 0; i < 56; i++) {
+		for (int i = 0; i < parts.length; i++) {
 			String a = parts[i];
 			System.out.print(morse.get(a));
 		}
